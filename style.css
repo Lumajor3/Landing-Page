@@ -13,6 +13,7 @@ body {
 .push-left {
     padding-left: 25%;
     font-size: 24px;
+    font-weight: bold;
 }
 
 .push-right {
@@ -24,6 +25,11 @@ body {
 .push-right li {
     display: inline;
     padding-left: 12px;
+}
+
+.push-right li a {
+    text-decoration: none;
+    color: #F9FAF8;
 }
 
 .page-body {
@@ -42,6 +48,7 @@ body {
 
 .section-1-half-1 {
     width: 40%;
+    height: 60%;
 }
 
 .section-1-title {
@@ -54,20 +61,24 @@ body {
     color: #E5E7EB;
 }
 
-.section-1-button button{
+.section-1-button button {
     background-color: #3882F6;
-    border-radius: 4px;
-    font-size: 18px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: solid 2px #3882F6;
+    font-size: 20px;
+    padding: 4px 25px 4px 25px;
     color: white;
 }
 
-.section-2-half-2 {
+.section-1-half-2 {
     display: flex;
-    width: 40%;
-    height: 90%;
-    background-color: lightgray;
+    width: 50%;
+    height: 60%;
+    background-color: rgba(211, 211, 211, 0.349);
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 .body-section-2 {
@@ -80,6 +91,7 @@ body {
 
 .body-section-2 .section-2-header {
     text-align: center;
+    padding-top: 30px;
 }
 
 .section-2-header {
