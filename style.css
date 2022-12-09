@@ -1,6 +1,5 @@
 .page-header{
     display: flex;
-    border: solid 2px green;
     height: 10vh;
     background-color: #1F2937;
     align-items: center;
@@ -25,10 +24,51 @@
 
 .page-body {
     border: solid 2px rgb(224, 13, 13);
-    min-height: 78vh;
+    height: 78vh;
+}
+
+.body-section-1 {
+    display: flex;
+    justify-content: space-between;
+    height: 25%;
+    background-color: #1F2937;
+    border: solid 2px green;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+}
+
+.section-1-half-1 {
+    width: 40%;
+}
+
+.section-1-title {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.section-1-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section-1-button button{
+    background-color: #3882F6;
+    border-radius: 4px;
+    font-size: 18px;
+    color: white;
+}
+
+.section-2-half-2 {
+    display: flex;
+    width: 40%;
+    height: 90%;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
 }
 
 .page-footer {
-    border: solid 2px rgb(38, 9, 207);
+    border: solid 2px rgb(34, 156, 255);
     height: 10vh;
 }
